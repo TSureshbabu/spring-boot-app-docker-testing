@@ -1,0 +1,26 @@
+<server description="new server">
+
+    <!-- Enable features -->
+    <featureManager>
+       
+        <feature>json-1.0</feature>
+        <feature>jsp-2.3</feature>
+        <feature>servlet-3.1</feature>
+    	<feature>springBoot-2.7</feature>
+    	
+	</featureManager>
+	
+    <httpEndpoint id="defaultHttpEndpoint"
+                  host="*"
+                  httpPort="9080"
+                  httpsPort="9443" />
+	
+	
+   <!-- <application id="seadmin" location="C:/NAREN/Projects/CIRRUS/Sales-Enablement/SalesEssentials-Admin/SalesEssentialsAdmin-EAR/target/SalesEssentialsAdmin-EAR.ear" name="seadmin" type="ear"> -->
+        <!-- <application id="se1" location="${server.config.dir}dropins/docker-spring-boot.war" name="se1" type="war" context-root="/docker/se">
+         -->
+         <webApplication location="docker-spring-boot.war" contextRoot="/suresh">
+
+     </webApplication>
+	<!-- <application id="se_admin" location="C:/NAREN/Projects/CIRRUS/Sales-Enablement/SalesEssentials-Admin/SalesEssentialsAdmin-EAR/target/SalesEssentialsAdmin-EAR.ear" name="seadmin" type="ear"/> -->
+</server>
