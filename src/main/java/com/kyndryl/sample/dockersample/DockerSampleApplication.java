@@ -2,7 +2,7 @@ package com.kyndryl.sample.dockersample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-//Author Suresh
+//Author Suresh new changes for testing
 @SpringBootApplication
 public class DockerSampleApplication {
 
